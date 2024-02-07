@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang-"en">
+  <head>
+    <title>Technical Documentation</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>HTML Documentation</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Prerequisites">Prerequisites</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Getting_Started_with_HTML">Getting Started with HTML</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#What_is_HTML?">What is HTML?</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Anatomy_of_an_HTML_element">Anatomy of an HTML element</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Attributes">Attributes</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Reference">Reference</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <div class="article">
+          <p>
+            At its heart, HTML is a language made up of elements, which can be applied to pieces of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is it part of a table?), structure a document into logical sections (Does it have a header? Three columns of content? A navigation menu?), and embed content such as images and videos into a page. This module will introduce the first two of these and introduce fundamental concepts and syntax you need to know to understand HTML.
+          </p>
+          <p></p>
+          <ul>
+            <li>Describe the different elements needed to define the meaning of the web page content.  Learn how to create variius types of text content such as paragraphs, lists, or tables.</li>
+            <li>Structure the document in logical sections.  A navigation menu, several columns of content, or a header and body.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="main-section" id="Prerequisites">
+        <header>Prerequisites</header>
+        <div class="article">
+          <p>
+            Before starting this module, you don't need any previous HTML knowledge, but you should have at least basic familiarity with using computers and using the web passively (i.e., just looking at it and consuming content). You should have a basic work environment set up (as detailed in Installing basic software), and understand how to create and manage files (as detailed in Dealing with files). Both are parts of our Getting started with the web complete beginner's module.
+          </p>
+          <p></p>
+          <ul>
+            <li>A basic familiarity with computers and using the web via a browser. Passively using the web and consuming content.</li>
+            <li>A basic work environment set up to allow you to perform the web page exercises.</li>
+            <li>An understanding of how to create and manage files. You will need to be able to create and edit files to preform the training exercises.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="main-section" id="Getting_Started_with_HTML">
+        <header>Getting Started with HTML</header>
+        <div class="article">
+          <p>
+            In this article, we cover the absolute basics of HTML. To get you started, this article defines elements, attributes, and all the other important terms you may have heard. It also explains where these fit into HTML. You will learn how HTML elements are structured, how a typical HTML page is structured, and other important basic language features. Along the way, there will be an opportunity to play with HTML too!
+          </p>
+          <p>Prerequisites: Basic software installed, and basic knowledge of working with files. As listed above.</p>
+          <p>Objective:	To gain basic familiarity with HTML, and practice writing a few HTML elements.</p>
+        </div>
+      </section>
+      <section class="main-section" id="What_is_HTML?">
+        <header>What is HTML?</header>
+        <div class="article">
+          <p>
+            HTML (HyperText Markup Language) is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on. For example, consider the following line of text:
+          </p>
+          <code>My cat is very grumpy.</code>
+          <p>
+            If we wanted the text to stand by itself, we could specify that it is a paragraph by enclosing it in a paragraph (&lt;p&gt;) element:
+          </p>
+          <code>&lt;p&gt;My cat is very grumpy&lt;/p&gt;</code>
+          <p class="note">
+            Note: Tags in HTML are not case-sensitive. This means they can be written in uppercase or lowercase. For example, a &lt;title&gt; tag could be written as &lt;title&gt;, &lt;TITLE&gt;, &lt;Title&gt;, &lt;TiTlE&gt;, etc., and it will work. However, it is best practice to write all tags in lowercase for consistency and readability.
+          </p>
+        </div>
+      </section>
+      <section class="main-section" id="Anatomy_of_an_HTML_element">
+        <header>Anatomy of an HTML element</header>
+        <div class="article">
+          <p>
+            Let's further explore our paragraph element from the previous section.
+          </p>
+          <p>The anatomy of our element is:</p>
+          <ul>
+            <li>The opening tag: This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.</li>
+            <li>The content: This is the content of the element. In this example, it is the paragraph text.</li>
+            <li>The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.</li>
+          </ul>
+          <p>The element is the opening tag, followed by content, followed by the closing tag.</p>
+            <code>&lt;div&gt;this is a div tag.  Very useful for containing code.&lt;/div&gt;</code>
+            <code>&lt;h1&gt;this is a h1 tag.  It is a header style HTML tag that emphasizes the text in a bold font.&lt;/h1&gt;</code>
+        </div>
+      </section>
+      <section class="main-section" id="Attributes">
+        <header>Attributes</header>
+        <div class="article">
+          <p>Elements can also have attributes. Attributes look like the "class" attribute below:</p>
+          <code>&lt;p class="editor-note"&gt;My cat is grumpy.&lt;/p&gt;</code>
+          <p>
+            Attributes contain extra information about the element that won't appear in the content. In this example, the class attribute is an identifying name used to target the element with style information.
+          </p>
+          <p>An attribute should have:</p>
+          <ul>
+            <li>
+              A space between it and the element name. (For an element with more than one attribute, the attributes should be separated by spaces too.)
+            </li>
+            <li>The attribute name, followed by an equal sign.</li>
+            <li>An attribute value, wrapped with opening and closing quote marks.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <div class="article">
+          <ul>
+            <li>
+              All of the documentation in this page is taken from 
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN</a>.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

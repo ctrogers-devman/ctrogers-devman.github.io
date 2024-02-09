@@ -14,10 +14,11 @@ body {
   #img-div {
     text-align: center;
     display: block;
-    margin: 10px 10px;
+    margin: 10px auto;
     padding: 10px 10px;
     background-color: #f2f3f4;
     height: auto;
+    max-width: 1024px;
     border-radius: 5px;
   }
   #image {

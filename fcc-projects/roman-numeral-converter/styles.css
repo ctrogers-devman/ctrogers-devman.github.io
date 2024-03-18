@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: times, times new roman, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  .main-head {
+    margin: 30px 0;
+  }
+  .main-title {
+    font-size: 2.2rem;
+    padding: 0;
+    margin: 20px 0px;
+  }
+  .ursus-habilis-logo {
+    height: 6rem;
+    max-width: 30rem;
+    margin-bottom: 20px;
+  }
+  .vessel {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+    position: relative;
+    font-size: 1.4rem;
+  }
+  .form-div {
+    width: 420px;
+    min-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    border: 2px solid white;
+    color: white;
+    margin: 10px 0px;
+    padding: 20px;
+  }
+  .entry-button {
+    width: 240px;
+    height: 50px;
+    padding: 10px;
+    background-color: lightblue;
+    margin: 10px;
+    border: 2px solid blue;
+    cursor: pointer;
+    font-size: 1.3rem;
+  }
+  .entry-input {
+    width: 240px;
+    height: 50px;
+    border: 2px solid white;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  .result-div {
+    width: 420px;
+    min-height: 75px;
+    border: 2px solid white;
+    overflow-y: auto;
+    word-wrap: break-word;
+    color: white;
+    padding: 12px 10px;
+    font-size: 2.5rem;
+  }
+  .result-input {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .hidden {
+    display: none;
+  }
+  .entry-label {
+    margin-bottom: 10px;
+  }  

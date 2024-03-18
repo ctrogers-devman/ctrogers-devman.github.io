@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Cash Register</title>
+  </head>
+  <body>
+    <main class="vessel">
+      <img class="ursus-habilis-logo" src="https://ctrogers-devman.github.io/images/ursus-habilis-logo.png" alt="ursus habilis software"></img>
+      <h2 class="main-title">Cash Register App</h2>
+      <div id="change-due" class="change-due"></div>
+      <div class="register-vessel">
+        <div class="input-vessel">
+          <label for="cash">Enter cash from customer:</label>
+          <input id="cash" type="number" class="cash-input">
+          <button id="purchase-btn" class="purch-btn-style">Purchase</button>
+        </div>
+        <div class="drawer-vessel">
+          <div class="top-drawer">
+            <p id="price-vessel" class="price-vessel">Total: $10.55</p>
+            <div class="neck"></div>
+          </div>
+          <div class="mid-drawer">
+            <div class="fake-btn-grid">
+              <button class="reg-grid-btn"></button>
+              <button class="reg-grid-btn"></button>
+              <button class="reg-grid-btn"></button>
+              <button class="reg-grid-btn"></button>
+              <button class="reg-grid-btn"></button>
+              <button class="reg-grid-btn"></button>
+              <button class="reg-grid-btn"></button>
+              <button class="reg-grid-btn"></button>
+              <button class="reg-grid-btn"></button>
+            </div>
+            <div id="drawer-amounts" class="drawer-amounts">
+            </div>
+          </div>
+          <div class="bottom-drawer">
+            <div class="knob"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>

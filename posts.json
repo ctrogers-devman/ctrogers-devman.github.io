@@ -2,13 +2,13 @@
   {
     id: 1,
     title: "Test blog post",
-    description: "Here is the content"
+    description: "Here is the content",
     url: "http://ctrogers-devman.github.io/posts/1.json"
   },
   {
     id: 2,
     title: "Testing production SMS testing",
-    description: "Content for post"
+    description: "Content for post",
     url: "http://ctrogers-devman.github.io/posts/2.json"
   }
 ]
